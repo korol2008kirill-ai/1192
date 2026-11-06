@@ -1,0 +1,679 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\K.Lipkin\Downloads\rzd-updated>    
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated>  
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> fbfdbfdbfdbfbdb
+fbfdbfdbfdbfbdb : Имя "fbfdbfdbfdbfbdb" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания им
+ени, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ fbfdbfdbfdbfbdb
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (fbfdbfdbfdbfbdb:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> fdb 
+fdb : Имя "fdb" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и п
+равильность пути, после чего повторите попытку.
+строка:1 знак:1
++ fdb
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (fdb:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> fb
+fb : Имя "fb" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и пра
+вильность пути, после чего повторите попытку.
+строка:1 знак:1
++ fb
++ ~~
+    + CategoryInfo          : ObjectNotFound: (fb:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> fb
+fb : Имя "fb" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и пра
+вильность пути, после чего повторите попытку.
+строка:1 знак:1
++ fb
++ ~~
+    + CategoryInfo          : ObjectNotFound: (fb:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> f
+f : Имя "f" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и прави
+льность пути, после чего повторите попытку.
+строка:1 знак:1
++ f
++ ~
+    + CategoryInfo          : ObjectNotFound: (f:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> fd
+fd : Имя "fd" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и пра
+вильность пути, после чего повторите попытку.
+строка:1 знак:1
++ fd
++ ~~
+    + CategoryInfo          : ObjectNotFound: (fd:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm install
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\bcrypt\Dockerfile-alpine'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\content-type\README.md'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\brace-expansion\dist\esm\index.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\braces\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg\lib\native'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\semver\functions\inc.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\depd\Readme.md'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\dunder-proto\test'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\dotenv\README.md'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\nodemon\lib\config\exec.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\es-errors\ref.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\call-bound\test'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\bcrypt\LICENSE'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\content-disposition\README.md'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\debug\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\has-symbols\test\tests.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\iconv-lite\lib\helpers\merge-exports.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-protocol\package.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\brace-expansion\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\braces\index.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\semver\classes'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\depd\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\dunder-proto\set.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\nodemon\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\es-errors\syntax.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\call-bound\package.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\bcrypt\Makefile'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\debug\package.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\has-symbols\package.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\dotenv\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\iconv-lite\encodings'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-protocol\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\brace-expansion\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\get-intrinsic\.github\FUNDING.yml'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\negotiator\node_modules\content-type\dist\index.js.map'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\balanced-match\dist\commonjs\package.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\braces\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\body-parser\lib\types\raw.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\semver\index.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\dunder-proto\test'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\nodemon\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\type-is\node_modules\content-type\dist\index.js.map'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\LICENSE'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\object-inspect\example\fn.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\ejs\lib\esm\ejs.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express\lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\bcrypt\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\minimatch\dist\esm'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\dotenv\dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\body-parser\node_modules\content-type\dist\index.js.map'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\iconv-lite\encodings\sbcs-data-generated.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\karma.conf.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-protocol\dist\buffer-reader.js.map'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\qs\lib\utils.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\balanced-match\dist\esm'
+npm warn tar TAR_ENTRY_ERROR UNKNOWN: unknown error, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\accepts\README.md'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\node.js'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\.eslintrc'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\Makefile'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\.coveralls.yml'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\component.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\.travis.yml'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\CHANGELOG.md'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src'
+
+added 121 packages, and audited 122 packages in 4s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+4 vulnerabilities (3 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice
+npm notice New major version of npm available! 11.13.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+PS C:\Users\K.Lipkin\Downloads\rzd-updated>   npm audit fix
+
+changed 2 packages, and audited 122 packages in 2s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+minimatch  7.0.0 - 11.0.0
+Severity: moderate
+minimatch has potential denial of service via globparts amplification - https://github.com/advisories/GHSA-g3hv-75wg-m249
+fix available via `npm audit fix --force`
+Will install nodemon@3.1.11, which is a breaking change
+node_modules/minimatch
+  nodemon  >=3.1.12
+  Depends on vulnerable versions of minimatch
+  node_modules/nodemon
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> 
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm start
+
+> rzd@1.0.0 start
+> node server.js
+
+◇ injected env (3) from .env
+node:internal/modules/cjs/loader:561
+      throw err;
+      ^
+
+Error: Cannot find module 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:553:19)
+    at Module._findPath (node:internal/modules/cjs/loader:821:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1485:27)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1600:12)
+    at require (node:internal/modules/helpers:153:16) {
+  code: 'MODULE_NOT_FOUND',
+  path: '\\\\?\\C:\\Users\\K.Lipkin\\Downloads\\rzd-updated\\node_modules\\express-session\\node_modules\\debug\\package.json',
+  requestPath: 'debug'
+}
+
+Node.js v24.17.0
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm start
+
+> rzd@1.0.0 start
+> node server.js
+
+◇ injected env (3) from .env
+node:internal/modules/cjs/loader:561
+      throw err;
+      ^
+
+Error: Cannot find module 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:553:19)
+    at Module._findPath (node:internal/modules/cjs/loader:821:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1485:27)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1600:12)
+    at require (node:internal/modules/helpers:153:16) {
+  code: 'MODULE_NOT_FOUND',
+  path: '\\\\?\\C:\\Users\\K.Lipkin\\Downloads\\rzd-updated\\node_modules\\express-session\\node_modules\\debug\\package.json',
+  requestPath: 'debug'
+}
+
+Node.js v24.17.0
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm install
+
+up to date, audited 122 packages in 930ms
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\K.Lipkin\Downloads\rzd-updated>  npm audit fix --force
+npm warn using --force Recommended protections disabled.
+npm warn audit Updating nodemon to 3.1.11, which is a SemVer major change.
+
+added 1 package, changed 4 packages, and audited 123 packages in 2s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm start
+
+> rzd@1.0.0 start
+> node server.js
+
+◇ injected env (3) from .env
+node:internal/modules/cjs/loader:561
+      throw err;
+      ^
+
+Error: Cannot find module 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:553:19)
+    at Module._findPath (node:internal/modules/cjs/loader:821:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1485:27)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1600:12)
+    at require (node:internal/modules/helpers:153:16) {
+  code: 'MODULE_NOT_FOUND',
+  path: '\\\\?\\C:\\Users\\K.Lipkin\\Downloads\\rzd-updated\\node_modules\\express-session\\node_modules\\debug\\package.json',
+  requestPath: 'debug'
+}
+
+Node.js v24.17.0
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm install debug --no-save
+
+up to date, audited 123 packages in 980ms
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm rebuild
+rebuilt dependencies successfully
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm start
+
+> rzd@1.0.0 start
+> node server.js
+
+◇ injected env (3) from .env
+node:internal/modules/cjs/loader:561
+      throw err;
+      ^
+
+Error: Cannot find module 'C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\express-session\node_modules\debug\src\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:553:19)
+    at Module._findPath (node:internal/modules/cjs/loader:821:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1485:27)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1600:12)
+    at require (node:internal/modules/helpers:153:16) {
+  code: 'MODULE_NOT_FOUND',
+  path: '\\\\?\\C:\\Users\\K.Lipkin\\Downloads\\rzd-updated\\node_modules\\express-session\\node_modules\\debug\\package.json',                                                                                       
+  requestPath: 'debug'
+}
+
+Node.js v24.17.0
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> Remove-Item -Recurse -Force "node_modules\express-session\node_modules\debug"                                                                                             
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm install
+
+added 1 package, and audited 123 packages in 1s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm install express-session --force
+npm warn using --force Recommended protections disabled.
+
+up to date, audited 123 packages in 977ms
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\K.Lipkin\Downloads\rzd-updated> npm start
+
+> rzd@1.0.0 start
+> node server.js
+
+◇ injected env (3) from .env
+◇ injected env (0) from .env
+Не удалось создать администратора: отношение "users" не существует
+Сервер запущен: http://localhost:3000
+error: отношение "trains" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:99:20 {
+  length: 134,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '163',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "trains" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:99:20 {
+  length: 134,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '163',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "trains" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:99:20 {
+  length: 134,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '163',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+assistant log failed: отношение "assistant_logs" не существует
+assistant log failed: отношение "assistant_logs" не существует
+assistant log failed: отношение "assistant_logs" не существует
+assistant log failed: отношение "assistant_logs" не существует
+assistant log failed: отношение "assistant_logs" не существует
+error: отношение "trains" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:99:20 {
+  length: 134,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '163',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "trains" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:99:20 {
+  length: 134,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '163',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "users" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:175:20 {
+  length: 132,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
+error: отношение "trains" не существует
+    at C:\Users\K.Lipkin\Downloads\rzd-updated\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\K.Lipkin\Downloads\rzd-updated\server.js:99:20 {
+  length: 134,
+  severity: 'ОШИБКА',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '163',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1395',
+  routine: 'parserOpenTable'
+}
