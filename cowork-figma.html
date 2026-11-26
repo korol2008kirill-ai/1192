@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>CoWork — экраны для Figma</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#D9DEE7;font-family:Inter,Arial,sans-serif;color:#0F1B2D;font-size:15px;line-height:1.4;padding:40px}
+.board{display:flex;flex-direction:row;gap:60px;align-items:flex-start;width:max-content}
+.screen{position:relative;width:390px;height:844px;background:#F2F4F8;overflow:hidden;border-radius:28px;padding:56px 20px 0}
+h1{font-size:24px;font-weight:800;margin-bottom:4px}
+h2{font-size:16px;font-weight:800;margin:22px 0 10px}
+.mute{color:#6B7686;font-size:13px}
+.search{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #E3E7EE;border-radius:16px;padding:14px;margin:16px 0;color:#6B7686}
+.hero{background:#4F46E5;color:#fff;border-radius:26px;padding:22px;height:130px;position:relative;overflow:hidden}
+.hero b{display:block;font-size:20px;margin-bottom:6px}
+.hero p{font-size:13px;opacity:.85;margin-bottom:12px}
+.pill{display:inline-block;background:#fff;color:#4F46E5;font-weight:800;font-size:13px;border-radius:20px;padding:9px 16px}
+.hero .big{position:absolute;right:10px;bottom:6px;font-size:70px;opacity:.25}
+.cats{display:flex;gap:10px}
+.cat{flex:1;background:#fff;border:1px solid #E3E7EE;border-radius:18px;padding:14px 4px;text-align:center;font-weight:700;font-size:13px}
+.cat span{display:block;font-size:26px;margin-bottom:4px}
+.grid{display:flex;gap:12px}
+.dev{flex:1;background:#fff;border:1px solid #E3E7EE;border-radius:20px;padding:10px}
+.pic{background:#E9E8FF;border-radius:14px;height:90px;display:flex;align-items:center;justify-content:center;font-size:38px}
+.dev b{display:block;margin-top:9px;font-size:14px}
+.price{color:#4F46E5;font-weight:800;font-size:14px;margin-top:4px}
+.chips{display:flex;gap:8px;margin:14px 0}
+.chip{background:#fff;border:1px solid #E3E7EE;border-radius:20px;padding:9px 15px;font-weight:600;font-size:13px}
+.chip.on{background:#4F46E5;border-color:#4F46E5;color:#fff}
+.row{display:flex;gap:14px;background:#fff;border:1px solid #E3E7EE;border-radius:20px;padding:12px;margin-bottom:12px}
+.row .pic{width:84px;height:84px;flex:none;font-size:34px}
+.row .in{flex:1}
+.row b{display:block}
+.st{font-size:12px;color:#12A37A;margin:4px 0}
+.st.busy{color:#E5484D}
+.back{width:40px;height:40px;border-radius:20px;background:#fff;border:1px solid #E3E7EE;display:flex;align-items:center;justify-content:center;font-size:18px}
+.big-pic{background:#E9E8FF;border-radius:26px;height:170px;display:flex;align-items:center;justify-content:center;font-size:80px;margin:14px 0}
+label{display:block;font-size:12px;color:#6B7686;margin:14px 0 6px}
+.step{display:flex;align-items:center;justify-content:space-between;background:#fff;border:1px solid #E3E7EE;border-radius:16px;padding:8px 14px;font-weight:800}
+.step span{width:36px;height:36px;border-radius:12px;background:#E9E8FF;color:#4F46E5;display:flex;align-items:center;justify-content:center;font-size:20px}
+.total{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1px solid #E3E7EE;border-radius:16px;padding:12px 16px;margin:14px 0}
+.total strong{font-size:22px;display:block}
+.btn{background:#4F46E5;color:#fff;font-weight:800;text-align:center;border-radius:16px;padding:16px}
+.field{background:#fff;border:1px solid #E3E7EE;border-radius:14px;padding:14px}
+.up{height:80px;border:2px dashed #4F46E5;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#4F46E5;font-weight:700}
+.prof{display:flex;gap:14px;align-items:center;margin:16px 0}
+.av{width:64px;height:64px;border-radius:32px;background:#4F46E5;color:#fff;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:800}
+.nav{position:absolute;left:0;bottom:0;width:390px;height:80px;background:#fff;border-top:1px solid #E3E7EE;display:flex;padding-top:10px}
+.nav div{flex:1;text-align:center;font-size:11px;font-weight:700;color:#6B7686}
+.nav div span{display:block;font-size:22px}
+.nav div.on{color:#4F46E5}
+.abs-btn{position:absolute;left:20px;right:20px;bottom:96px}
+.abs-btn.low{bottom:30px}
+</style>
+</head>
+<body>
+<div class="board">
+
+<!-- 1. Главная -->
+<div class="screen" id="home">
+  <div class="mute">Добрый день</div>
+  <h1>Алекс, что берём в работу?</h1>
+  <div class="search">🔍 Поиск устройств</div>
+  <div class="hero"><b>Место и техника в одной брони</b><p>Стол с ноутбуком от 250 ₽ в час</p><span class="pill">Выбрать устройство</span><span class="big">💻</span></div>
+  <h2>Категории</h2>
+  <div class="cats"><div class="cat"><span>💻</span>Ноутбуки</div><div class="cat"><span>🖥</span>ПК</div><div class="cat"><span>📱</span>Планшеты</div></div>
+  <h2>Популярное сейчас</h2>
+  <div class="grid">
+    <div class="dev"><div class="pic">💻</div><b>MacBook Air M2</b><div class="mute">16 ГБ, 512 ГБ</div><div class="price">300 ₽/час</div></div>
+    <div class="dev"><div class="pic">📱</div><b>iPad Pro 11”</b><div class="mute">256 ГБ, Pencil</div><div class="price">200 ₽/час</div></div>
+  </div>
+  <div class="nav"><div class="on"><span>🏠</span>Главная</div><div><span>🗂</span>Каталог</div><div><span>➕</span>Сдать</div><div><span>👤</span>Профиль</div></div>
+</div>
+
+<!-- 2. Каталог -->
+<div class="screen" id="catalog">
+  <h1>Каталог устройств</h1>
+  <div class="chips"><span class="chip on">Все</span><span class="chip">Ноутбук</span><span class="chip">ПК</span><span class="chip">Планшет</span></div>
+  <div class="row"><div class="pic">💻</div><div class="in"><b>MacBook Air M2</b><div class="mute">16 ГБ, 512 ГБ SSD</div><div class="st">● Свободен</div><div class="price">300 ₽/час</div></div></div>
+  <div class="row"><div class="pic">🖥</div><div class="in"><b>Игровой ПК RTX 4070</b><div class="mute">Ryzen 7, 32 ГБ</div><div class="st">● Свободен</div><div class="price">450 ₽/час</div></div></div>
+  <div class="row"><div class="pic">📱</div><div class="in"><b>iPad Pro 11”</b><div class="mute">256 ГБ, Pencil</div><div class="st busy">● Занят до 15:00</div><div class="price">200 ₽/час</div></div></div>
+  <div class="row"><div class="pic">💻</div><div class="in"><b>ThinkPad X1 Carbon</b><div class="mute">16 ГБ, 1 ТБ SSD</div><div class="st">● Свободен</div><div class="price">250 ₽/час</div></div></div>
+  <div class="nav"><div><span>🏠</span>Главная</div><div class="on"><span>🗂</span>Каталог</div><div><span>➕</span>Сдать</div><div><span>👤</span>Профиль</div></div>
+</div>
+
+<!-- 3. Бронирование -->
+<div class="screen" id="booking">
+  <div class="back">←</div>
+  <div class="big-pic">💻</div>
+  <h1>MacBook Air M2</h1><div class="mute">Apple M2, 16 ГБ, 512 ГБ SSD</div>
+  <label>Дата</label>
+  <div class="chips" style="margin-top:0"><span class="chip on">Сегодня</span><span class="chip">Завтра</span><span class="chip">28 ноя</span></div>
+  <label>Время начала</label>
+  <div class="chips" style="margin-top:0"><span class="chip">10:00</span><span class="chip on">12:00</span><span class="chip">14:00</span><span class="chip">16:00</span></div>
+  <label>Длительность</label>
+  <div class="step"><span>−</span>3 ч<span>+</span></div>
+  <div class="total"><div><div class="mute">Итого</div><strong>900 ₽</strong></div><div class="mute" style="color:#12A37A">Залог не нужен</div></div>
+  <div class="btn abs-btn low">Забронировать</div>
+</div>
+
+<!-- 4. Сдать в аренду -->
+<div class="screen" id="rent">
+  <h1>Сдать устройство</h1><div class="mute">Зарабатывайте на своей технике</div>
+  <label>Тип устройства</label>
+  <div class="chips" style="margin-top:0"><span class="chip on">Ноутбук</span><span class="chip">ПК</span><span class="chip">Планшет</span></div>
+  <label>Название</label><div class="field">MacBook Pro 14”</div>
+  <label>Характеристики</label><div class="field">M3 Pro, 18 ГБ, 512 ГБ</div>
+  <label>Цена за час, ₽</label><div class="field">350</div>
+  <label>Фото</label><div class="up">+ Добавить фото</div>
+  <div class="total"><span class="mute">Ваш доход с аренды</span><strong>80%</strong></div>
+  <div class="btn abs-btn">Опубликовать</div>
+  <div class="nav"><div><span>🏠</span>Главная</div><div><span>🗂</span>Каталог</div><div class="on"><span>➕</span>Сдать</div><div><span>👤</span>Профиль</div></div>
+</div>
+
+<!-- 5. Профиль -->
+<div class="screen" id="profile">
+  <div class="prof"><div class="av">А</div><div><h1>Алекс Ким</h1><div class="mute">Резидент с марта 2026</div></div></div>
+  <h2>Мои брони</h2>
+  <div class="row"><div class="in"><b>MacBook Air M2</b><div class="mute">Сегодня, 12:00, 3 ч</div><div class="st">● Подтверждено</div></div></div>
+  <h2>Сдаю в аренду</h2>
+  <div class="row"><div class="in"><b>MacBook Pro 14”</b><div class="mute">350 ₽/час</div><div class="st">● Опубликовано</div></div></div>
+  <div class="row"><div class="in"><b>Galaxy Tab S9</b><div class="mute">150 ₽/час</div><div class="st busy">● Сдано до 18:00</div></div></div>
+  <div class="nav"><div><span>🏠</span>Главная</div><div><span>🗂</span>Каталог</div><div><span>➕</span>Сдать</div><div class="on"><span>👤</span>Профиль</div></div>
+</div>
+
+</div>
+</body>
+</html>
