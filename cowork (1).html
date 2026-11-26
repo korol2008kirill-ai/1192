@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CoWork — аренда техники</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#F2F4F8;--card:#fff;--ink:#0F1B2D;--mute:#6B7686;--line:#E3E7EE;--acc:#4F46E5;--soft:#E9E8FF;--on:#fff;--ok:#12A37A;--bad:#E5484D;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1220;--card:#151C2E;--ink:#EEF1F7;--mute:#98A2B5;--line:#252E45;--acc:#7B74FF;--soft:#232552;--on:#0C1220}}
+:root[data-theme="dark"]{--bg:#0C1220;--card:#151C2E;--ink:#EEF1F7;--mute:#98A2B5;--line:#252E45;--acc:#7B74FF;--soft:#232552;--on:#0C1220}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.4}
+.app{max-width:430px;margin:0 auto;padding:20px 20px 110px;min-height:100vh}
+h1{font-size:26px;font-weight:800;margin:6px 0 4px;letter-spacing:-.02em}
+h2{font-size:17px;font-weight:800;margin:26px 0 12px}
+.mute{color:var(--mute);font-size:13px}
+.view{display:none}.view.on{display:block}
+.search{display:flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:16px 0;color:var(--mute)}
+.search input{border:0;background:none;outline:0;flex:1;font:inherit;color:var(--ink)}
+.hero{background:var(--acc);color:var(--on);border-radius:26px;padding:22px;position:relative;overflow:hidden}
+.hero b{font-size:21px;font-weight:800;display:block;margin-bottom:6px}
+.hero p{margin:0 0 16px;opacity:.85;font-size:13px}
+.hero .big{position:absolute;right:-6px;bottom:-14px;font-size:92px;opacity:.22}
+.btn{display:block;width:100%;border:0;border-radius:16px;background:var(--acc);color:var(--on);font:inherit;font-weight:800;padding:16px;cursor:pointer}
+.btn.sm{display:inline-block;width:auto;padding:10px 16px;border-radius:20px;background:var(--on);color:var(--acc);font-size:13px}
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 6px;text-align:center;font-weight:700;font-size:13px;cursor:pointer;color:var(--ink)}
+.cat i{display:block;font-style:normal;font-size:26px;margin-bottom:4px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin:14px 0}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:20px;padding:9px 15px;font:inherit;font-weight:600;font-size:13px;cursor:pointer}
+.chip.on{background:var(--acc);border-color:var(--acc);color:var(--on)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.dev{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:10px;cursor:pointer}
+.dev .pic{background:var(--soft);border-radius:14px;height:86px;display:grid;place-items:center;font-size:38px}
+.dev b{display:block;margin-top:9px;font-size:14px}
+.dev .p{color:var(--acc);font-weight:800;margin-top:4px;font-size:14px}
+.row{display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:12px;margin-bottom:12px;cursor:pointer}
+.row .pic{flex:none;width:84px;height:84px;background:var(--soft);border-radius:14px;display:grid;place-items:center;font-size:36px}
+.row .in{flex:1;min-width:0}.row b{display:block}
+.st{display:inline-flex;align-items:center;gap:6px;font-size:12px;margin:4px 0}
+.st:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--ok)}
+.st.busy:before{background:var(--bad)}
+.back{border:1px solid var(--line);background:var(--card);color:var(--ink);width:40px;height:40px;border-radius:50%;font-size:18px;cursor:pointer}
+.big-pic{background:var(--soft);border-radius:26px;height:190px;display:grid;place-items:center;font-size:84px;margin:14px 0}
+.step{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 14px}
+.step button{border:0;background:var(--soft);color:var(--acc);width:36px;height:36px;border-radius:12px;font-size:20px;font-weight:800;cursor:pointer}
+.total{display:flex;justify-content:space-between;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin:18px 0}
+.total strong{font-size:22px}
+label{display:block;font-size:12px;color:var(--mute);margin:16px 0 6px}
+input.f{width:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;font:inherit;color:var(--ink)}
+input.f:focus{outline:2px solid var(--acc)}
+.up{height:84px;border:2px dashed var(--acc);border-radius:16px;display:grid;place-items:center;color:var(--acc);font-weight:700}
+nav{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:8px 0 calc(8px + env(safe-area-inset-bottom,0px))}
+nav div{max-width:430px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr)}
+nav a{text-align:center;text-decoration:none;color:var(--mute);font-size:11px;font-weight:700;padding:4px}
+nav a i{display:block;font-style:normal;font-size:22px}
+nav a.on{color:var(--acc)}
+.prof{display:flex;gap:14px;align-items:center;margin:16px 0}
+.av{width:64px;height:64px;border-radius:50%;background:var(--acc);color:var(--on);display:grid;place-items:center;font-size:26px;font-weight:800}
+.toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:14px;font-weight:700;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+</style>
+</head>
+<body>
+<div class="app">
+
+<section class="view" id="v-home">
+  <div class="mute">Добрый день</div>
+  <h1>Алекс, что берём в работу?</h1>
+  <label class="search" style="margin-top:16px">🔍<input id="q" placeholder="Поиск устройств" oninput="go('catalog');S.q=this.value;renderCat()"></label>
+  <div class="hero"><b>Место и техника в одной брони</b><p>Стол с ноутбуком от 250 ₽ в час</p><button class="btn sm" onclick="go('catalog')">Выбрать устройство</button><span class="big">💻</span></div>
+  <h2>Категории</h2>
+  <div class="cats">
+    <button class="cat" onclick="S.t='Ноутбук';go('catalog')"><i>💻</i>Ноутбуки</button>
+    <button class="cat" onclick="S.t='ПК';go('catalog')"><i>🖥</i>ПК</button>
+    <button class="cat" onclick="S.t='Планшет';go('catalog')"><i>📱</i>Планшеты</button>
+  </div>
+  <h2>Популярное сейчас</h2>
+  <div class="grid" id="pop"></div>
+</section>
+
+<section class="view" id="v-catalog">
+  <h1>Каталог устройств</h1>
+  <div class="chips" id="chips"></div>
+  <div id="list"></div>
+</section>
+
+<section class="view" id="v-book">
+  <button class="back" onclick="go('catalog')" aria-label="Назад">←</button>
+  <div class="big-pic" id="bPic"></div>
+  <h1 id="bName"></h1><div class="mute" id="bSpec"></div>
+  <label>Дата</label><div class="chips" id="bDate"></div>
+  <label>Время начала</label><div class="chips" id="bTime"></div>
+  <label>Длительность</label>
+  <div class="step"><button onclick="dur(-1)" aria-label="Меньше">−</button><b id="bDur"></b><button onclick="dur(1)" aria-label="Больше">+</button></div>
+  <div class="total"><div><div class="mute">Итого</div><strong id="bSum"></strong></div><span class="mute" style="color:var(--ok)">Залог не нужен</span></div>
+  <button class="btn" onclick="book()">Забронировать</button>
+</section>
+
+<section class="view" id="v-rent">
+  <h1>Сдать устройство</h1><div class="mute">Зарабатывайте на своей технике, пока она простаивает</div>
+  <label>Тип устройства</label><div class="chips" id="rType"></div>
+  <label>Название</label><input class="f" id="rName" placeholder="MacBook Pro 14”">
+  <label>Характеристики</label><input class="f" id="rSpec" placeholder="M3 Pro, 18 ГБ, 512 ГБ">
+  <label>Цена за час, ₽</label><input class="f" id="rPrice" type="number" inputmode="numeric" placeholder="350">
+  <label>Фото</label><div class="up">+ Добавить фото</div>
+  <div class="total"><span class="mute">Ваш доход с аренды</span><strong>80%</strong></div>
+  <button class="btn" onclick="rent()">Опубликовать</button>
+</section>
+
+<section class="view" id="v-me">
+  <div class="prof"><div class="av">А</div><div><h1 style="margin:0">Алекс Ким</h1><div class="mute">Резидент с марта 2026</div></div></div>
+  <h2>Мои брони</h2><div id="mine"></div>
+  <h2>Сдаю в аренду</h2><div id="mineRent"></div>
+  <button class="btn" style="background:var(--soft);color:var(--acc);margin-top:18px" onclick="theme()">Сменить тему</button>
+</section>
+
+</div>
+<div class="toast" id="toast"></div>
+<nav><div>
+  <a href="#home" data-v="home"><i>🏠</i>Главная</a>
+  <a href="#catalog" data-v="catalog"><i>🗂</i>Каталог</a>
+  <a href="#rent" data-v="rent"><i>➕</i>Сдать</a>
+  <a href="#me" data-v="me"><i>👤</i>Профиль</a>
+</div></nav>
+
+<script>
+var ICON={"Ноутбук":"💻","ПК":"🖥","Планшет":"📱"};
+var D=[
+ {n:"MacBook Air M2",s:"16 ГБ, 512 ГБ SSD",p:300,t:"Ноутбук"},
+ {n:"Игровой ПК RTX 4070",s:"Ryzen 7, 32 ГБ",p:450,t:"ПК"},
+ {n:"iPad Pro 11”",s:"256 ГБ, Pencil",p:200,t:"Планшет",busy:1},
+ {n:"ThinkPad X1 Carbon",s:"16 ГБ, 1 ТБ SSD",p:250,t:"Ноутбук"},
+ {n:"iMac 24”",s:"M3, 16 ГБ",p:350,t:"ПК"},
+ {n:"Galaxy Tab S9",s:"128 ГБ",p:150,t:"Планшет"}
+];
+var S={t:"Все",q:"",cur:0,date:"Сегодня",time:"12:00",h:3,rt:"Ноутбук",mine:[],mineRent:[]};
+var $=function(i){return document.getElementById(i)};
+var VIEWS=["home","catalog","book","rent","me"];
+function go(v){location.hash=v}
+function route(){
+  var v=location.hash.slice(1);if(VIEWS.indexOf(v)<0)v="home";
+  VIEWS.forEach(function(x){$("v-"+x).classList.toggle("on",x===v)});
+  document.querySelectorAll("nav a").forEach(function(a){a.classList.toggle("on",a.dataset.v===v||(v==="book"&&a.dataset.v==="catalog"))});
+  if(v==="catalog")renderCat();if(v==="me")renderMe();if(v==="book")renderBook();
+  scrollTo(0,0);
+}
+function chips(el,arr,sel,fn){
+  $(el).innerHTML=arr.map(function(a){return '<button class="chip'+(a===sel?' on':'')+'" data-c="'+a+'">'+a+'</button>'}).join("");
+  $(el).onclick=function(e){var c=e.target.closest("[data-c]");if(c)fn(c.dataset.c)};
+}
+function open_(i){S.cur=i;go("book")}
+function card(d,i){return '<div class="dev" onclick="open_('+i+')"><div class="pic">'+ICON[d.t]+'</div><b>'+d.n+'</b><div class="mute">'+d.s+'</div><div class="p">'+d.p+' ₽/час</div></div>'}
+function renderCat(){
+  chips("chips",["Все","Ноутбук","ПК","Планшет"],S.t,function(c){S.t=c;renderCat()});
+  var q=S.q.toLowerCase(),h="";
+  D.forEach(function(d,i){
+    if((S.t==="Все"||d.t===S.t)&&d.n.toLowerCase().indexOf(q)>-1)
+      h+='<div class="row" onclick="open_('+i+')"><div class="pic">'+ICON[d.t]+'</div><div class="in"><b>'+d.n+'</b><div class="mute">'+d.s+'</div><div class="st'+(d.busy?' busy':'')+'">'+(d.busy?'Занят до 15:00':'Свободен')+'</div><div style="color:var(--acc);font-weight:800">'+d.p+' ₽/час</div></div></div>';
+  });
+  $("list").innerHTML=h||'<p class="mute">Ничего не найдено. Сбросьте фильтр или поиск.</p>';
+}
+function renderBook(){
+  var d=D[S.cur];
+  $("bPic").textContent=ICON[d.t];$("bName").textContent=d.n;$("bSpec").textContent=d.s;
+  chips("bDate",["Сегодня","Завтра","28 ноя"],S.date,function(c){S.date=c;renderBook()});
+  chips("bTime",["10:00","12:00","14:00","16:00"],S.time,function(c){S.time=c;renderBook()});
+  $("bDur").textContent=S.h+" ч";$("bSum").textContent=(S.h*d.p)+" ₽";
+}
+function dur(x){S.h=Math.min(12,Math.max(1,S.h+x));renderBook()}
+function book(){
+  var d=D[S.cur];
+  if(d.busy){toast("Устройство занято, выберите другое время");return}
+  S.mine.push(d.n+" · "+S.date+", "+S.time+", "+S.h+" ч");
+  toast("Забронировано");go("me");
+}
+function renderMe(){
+  $("mine").innerHTML=S.mine.length?S.mine.map(function(m){return '<div class="row" style="cursor:default"><div class="in"><b>'+m+'</b></div></div>'}).join(""):'<p class="mute">Броней пока нет. Выберите устройство в каталоге.</p>';
+  $("mineRent").innerHTML=S.mineRent.length?S.mineRent.map(function(m){return '<div class="row" style="cursor:default"><div class="in"><b>'+m+'</b><div class="st">Опубликовано</div></div></div>'}).join(""):'<p class="mute">Вы ещё ничего не сдаёте.</p>';
+}
+function rent(){
+  var n=$("rName").value.trim(),p=+$("rPrice").value;
+  if(!n||!p){toast("Укажите название и цену");return}
+  D.push({n:n,s:$("rSpec").value||"Без описания",p:p,t:S.rt});
+  S.mineRent.push(n+" · "+p+" ₽/час");
+  ["rName","rSpec","rPrice"].forEach(function(i){$(i).value=""});
+  toast("Опубликовано");S.t="Все";S.q="";go("catalog");
+}
+function toast(t){var e=$("toast");e.textContent=t;e.classList.add("on");setTimeout(function(){e.classList.remove("on")},1800)}
+function theme(){var r=document.documentElement,d=r.dataset.theme==="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme:dark)").matches);r.dataset.theme=d?"light":"dark"}
+function rTypes(){chips("rType",["Ноутбук","ПК","Планшет"],S.rt,function(c){S.rt=c;rTypes()})}
+rTypes();
+$("pop").innerHTML=[0,2].map(function(i){return card(D[i],i)}).join("");
+addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
